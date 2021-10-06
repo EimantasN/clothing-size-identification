@@ -31,7 +31,7 @@ spec:
             type: Directory
       containers:
       - name: unet-mask
-        image: containers.endev.lt/unet:latest
+        image: containers.endev.lt/unet-mask:latest
         volumeMounts:
         - name: dshm
           mountPath: /dev/shm
