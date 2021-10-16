@@ -45,7 +45,9 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            nvidia.com/gpu: 1
+            cpu: "32"
+            memory: 32gb
+            nvidia.com/gpu: "1"
         command: ["/bin/sh"]
         args:
             - -c
@@ -71,3 +73,48 @@ spec:
     nodePort: 30933
   selector:
     run: unet-mask
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: unet-mask-app
+  labels:
+    run: unet-mask-app
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    name: http
+  - port: 443
+    protocol: TCP
+    name: https
+    targetPort: 80
+  selector:
+    run: unet-mask-app
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: unet-mask-app-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/auth-type: basic
+    nginx.ingress.kubernetes.io/auth-secret: unet-auth
+    nginx.ingress.kubernetes.io/auth-realm: 'Authentication Required - to access Unet based container jupyter notebook'
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - hosts:
+    - unet.endev.lt
+    secretName: unet-mask-app-tls
+  rules:
+  - host: "unet.endev.lt"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: unet-mask
+            port:
+              number: 80
+
