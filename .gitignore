@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 MANIFEST
 build
 dist
@@ -59,7 +58,6 @@ docs/source/changelog.md
 .jupyter_releaser_checkout
 
 /wandb/*
-=======
 utils/__pycache__/__init__.cpython-36.pyc
 unet/__pycache__/__init__.cpython-36.pyc
->>>>>>> b8c75fd6ef362c36b3591424375414db9412662b
+/training/

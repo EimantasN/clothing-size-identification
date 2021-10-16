@@ -37,10 +37,10 @@ def generate_mask_images(filepath, dir_path, mask_dir_path):
         
         cv2.imwrite(mask_dir_path + file.split(".")[0] + "_mask.jpg", mask)
 
-        im = Image.open(mask_dir_path + file.split(".")[0] + "_mask.jpg")
-        im.save(mask_dir_path + file.split(".")[0] + "_mask.gif") # Save img with 4 channels
+#         im = Image.open(mask_dir_path + file.split(".")[0] + "_mask.jpg")
+#         im.save(mask_dir_path + file.split(".")[0] + "_mask.gif") # Save img with 4 channels
         
-        show_img_with_mash(orig, im)
+        show_img_with_mash(orig, img)
 
     f.close()
 
