@@ -1,10 +1,9 @@
 import logging
+import torch
+import numpy as np
 from os import listdir
 from os.path import splitext
 from pathlib import Path
-
-import numpy as np
-import torch
 from PIL import Image
 from torch.utils.data import Dataset
 
@@ -67,24 +66,9 @@ class BasicDataset(Dataset):
         
         mask = self.load(mask_img)
         img = self.load(orig_img)
-        
-#         print(mask_img)
-#         print(img.size)
-#         print(mask)
-#         assert img.size == mask.size, \
-#             'Image and mask ' + name + 'should be the same size, but are ' + str(img.shape) + ' and ' + str(mask.shape)
 
         img = self.preprocess(img, self.scale, is_mask=False)
         mask = self.preprocess(mask, self.scale, is_mask=True)
-#         print(mask.shape)
-#         print("mask for channel 3")
-#         print(mask[..., 3].max())
-#         print("mask for channel 2")
-#         print(mask[..., 2].max())
-#         print("mask for channel 1")
-#         print(mask[..., 1].max())
-#         print("mask for channel 0")
-#         print(mask[..., 0].max())
 
         mask_tensor = torch.as_tensor(mask.copy()).long().contiguous()
         mask_tensor[mask_tensor>0] = 1

@@ -1,15 +1,14 @@
 import cv2
+import json
+import numpy as np
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from os import listdir
 from os.path import isfile, join
-import json
 from skimage import draw
-import numpy as np
 from PIL import Image
 import PIL
-from scipy import ndimage
 
 def poly2mask(vertex_row_coords, vertex_col_coords, shape):
     fill_row_coords, fill_col_coords = draw.polygon(vertex_row_coords, vertex_col_coords, shape)
@@ -36,9 +35,6 @@ def generate_mask_images(filepath, dir_path, mask_dir_path):
         img = mask.astype('uint8') * 255
         
         cv2.imwrite(mask_dir_path + file.split(".")[0] + "_mask.jpg", mask)
-
-#         im = Image.open(mask_dir_path + file.split(".")[0] + "_mask.jpg")
-#         im.save(mask_dir_path + file.split(".")[0] + "_mask.gif") # Save img with 4 channels
         
         show_img_with_mash(orig, img)
 
