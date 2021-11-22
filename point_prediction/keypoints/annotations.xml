@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>146770</id>
+      <name>label</name>
+      <size>17</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-11-10 14:26:45.869582+00:00</created>
+      <updated>2021-11-18 13:06:50.611015+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>16</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>226689</id>
+          <start>0</start>
+          <stop>16</stop>
+          <url>http://cvat.org/?id=226689</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>Ramunas</username>
+        <email>ramskis9@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>left_neck</name>
+          <color>#4c4db3</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_neck</name>
+          <color>#ec7191</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_shoulder</name>
+          <color>#bfb45f</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_shoulder</name>
+          <color>#0cdb38</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_sleeve</name>
+          <color>#c072da</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_sleeve</name>
+          <color>#46ce27</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_chest</name>
+          <color>#397c29</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_chest</name>
+          <color>#3faef4</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_bottom</name>
+          <color>#4507fb</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_bottom</name>
+          <color>#7dceb0</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>middle_bottom</name>
+          <color>#0c10a1</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_waist</name>
+          <color>#42ee30</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_waist</name>
+          <color>#6d5952</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2021-11-18 13:06:55.350394+00:00</dumped>
+  </meta>
+  <image id="16" name="J017.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="743.60,591.20" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1328.80,604.20" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="485.30,777.90" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="267.60,1480.60" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="550.80,1154.30" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="550.90,1685.00" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="390.00,2355.30" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="993.10,2561.40" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1531.50,2471.20" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1466.80,1734.20" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1504.20,1233.30" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1815.20,1508.70" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1613.00,693.40" z_order="0">
+    </points>
+  </image>
+  <image id="15" name="J014.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="769.40,708.90" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1346.00,733.40" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="485.30,777.90" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="167.10,1635.60" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="550.80,1507.40" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="588.20,1751.00" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="467.50,2487.40" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="993.10,2561.40" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1520.00,2540.10" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1443.80,1768.70" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1515.70,1477.30" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1932.90,1649.40" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1641.70,828.30" z_order="0">
+    </points>
+  </image>
+  <image id="14" name="IMG_9433.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="845.50,515.90" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1334.50,498.00" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="588.60,645.90" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="571.90,1322.70" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="717.30,961.90" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="763.30,1277.30" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="634.00,1784.10" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="1044.80,1832.20" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1459.70,1747.70" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1386.40,1369.70" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1487.00,960.60" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1686.00,1304.90" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1618.70,621.60" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="IMG_9432.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="668.90,386.10" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1196.70,409.00" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="404.90,551.20" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="353.70,1228.00" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="533.60,867.20" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="548.00,1331.80" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="407.20,1749.70" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="852.50,1797.70" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1278.80,1724.70" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1219.90,1323.80" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1354.90,897.40" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1551.10,1261.80" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1486.60,529.70" z_order="0">
+    </points>
+  </image>
+  <image id="12" name="IMG_9421.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="708.40,709.10" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1213.40,700.90" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="404.90,792.80" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="368.10,1603.60" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="509.70,1226.10" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="591.10,1676.30" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="440.70,2235.30" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="929.10,2314.40" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1427.10,2243.80" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1330.40,1704.20" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1426.70,1241.90" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1670.70,1532.10" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1524.90,800.00" z_order="0">
+    </points>
+  </image>
+  <image id="11" name="IMG_9417.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="717.30,568.30" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1241.30,567.30" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="377.00,641.30" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="138.80,1366.40" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="439.90,1260.00" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="407.70,1596.60" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="365.70,2242.20" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="878.30,2323.60" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1420.20,2319.90" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1494.30,1742.20" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1494.50,1281.80" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1870.10,1412.50" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1566.80,666.40" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="IMG_9416.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="761.40,573.00" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1274.50,618.50" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="451.80,626.10" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="193.60,1773.40" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="455.10,1062.00" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="540.60,1460.90" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="379.00,2049.50" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="878.30,2117.60" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1385.30,2138.80" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1308.00,1740.10" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1451.60,1207.00" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1885.10,1867.70" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1558.50,712.10" z_order="0">
+    </points>
+  </image>
+  <image id="9" name="IMG_9415.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="725.20,569.40" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1283.70,623.10" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="439.10,630.70" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="123.80,843.00" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="475.90,984.70" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="548.90,1472.50" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="369.00,2235.60" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="871.70,2330.30" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1375.30,2308.30" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1341.30,1703.30" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1478.10,1055.90" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1783.80,1043.70" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1508.90,677.50" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="IMG_9414.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="664.20,706.90" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1338.20,755.20" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="571.20,708.20" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="333.40,1089.90" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="530.40,1047.90" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="554.65,1517.00" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="481.00,1919.80" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="888.90,1982.90" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1315.00,2038.40" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1323.00,1679.35" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1420.70,1147.80" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1697.70,1063.80" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1434.30,775.10" z_order="0">
+    </points>
+  </image>
+  <image id="7" name="IMG_9410.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="704.90,644.30" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1226.10,647.20" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="503.10,676.30" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="215.70,897.60" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="530.40,1039.30" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="560.40,1561.50" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="469.40,2056.00" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="897.20,2222.10" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1346.60,2131.40" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1304.70,1655.40" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1360.40,1119.10" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1697.70,931.70" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1386.40,701.20" z_order="0">
+    </points>
+  </image>
+  <image id="6" name="IMG_9409.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="797.00,800.90" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1243.30,848.20" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="586.40,854.30" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="422.40,1247.80" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="639.50,1182.80" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="663.70,1515.60" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="555.50,1935.40" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="925.90,1960.90" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1277.70,1987.90" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1261.60,1511.90" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1351.80,1248.30" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1669.00,1322.10" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1472.60,959.60" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="IMG_9331.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="774.50,709.10" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1343.80,730.50" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="468.70,776.80" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="164.00,1635.40" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="526.10,1243.10" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="600.50,1799.80" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="475.10,2480.90" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="1014.90,2566.60" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1516.00,2527.60" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1433.80,1758.80" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1544.10,1328.70" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1930.20,1646.50" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1587.40,801.70" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="IMG_9263.jpg" width="2000" height="3000">
+    <points label="left_neck" occluded="0" source="manual" points="771.80,586.00" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1315.10,604.20" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="440.00,664.80" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="273.10,1486.10" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="544.80,1142.60" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="560.30,1667.70" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="406.20,2374.70" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="991.90,2575.20" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1536.10,2467.30" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1459.60,1764.50" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1501.10,1193.80" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1801.00,1500.00" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1627.60,678.30" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="DSC_2715.jpg" width="2592" height="3872">
+    <points label="left_neck" occluded="0" source="manual" points="1160.40,1169.90" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1599.30,1184.10" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="856.30,1305.00" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="735.30,1773.20" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="918.00,1802.90" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="942.10,2101.20" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="836.80,2750.80" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="1257.90,2772.80" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1699.70,2854.90" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1697.90,2120.50" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1748.00,1813.90" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="2105.30,1792.80" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1917.60,1332.80" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="DSC_2714.jpg" width="2592" height="3872">
+    <points label="left_neck" occluded="0" source="manual" points="1169.30,1168.50" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1608.00,1185.50" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="861.50,1297.70" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="707.20,1748.60" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="938.10,1787.30" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="942.10,2067.30" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="813.60,2751.50" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="1264.60,2770.40" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1693.80,2868.10" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1703.10,2172.80" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1760.50,1825.30" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="2073.10,1817.70" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1923.10,1325.90" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="DSC_2712.jpg" width="2592" height="3872">
+    <points label="left_neck" occluded="0" source="manual" points="1070.70,1159.80" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1549.40,1190.70" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="901.70,1187.20" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="648.70,1659.90" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="890.70,1546.90" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="890.40,2007.00" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="803.30,2475.70" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="1183.60,2530.00" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1637.80,2521.70" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1584.20,2163.30" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1679.50,1642.60" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="1993.00,1706.50" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1750.80,1243.20" z_order="0">
+    </points>
+  </image>
+  <image id="0" name="DSC_2711.jpg" width="2592" height="3872">
+    <points label="left_neck" occluded="0" source="manual" points="1076.53,1159.64" z_order="0">
+    </points>
+    <points label="right_neck" occluded="0" source="manual" points="1554.85,1173.77" z_order="0">
+    </points>
+    <points label="left_shoulder" occluded="0" source="manual" points="902.55,1189.80" z_order="0">
+    </points>
+    <points label="left_sleeve" occluded="0" source="manual" points="657.79,1659.92" z_order="0">
+    </points>
+    <points label="left_chest" occluded="0" source="manual" points="891.32,1555.54" z_order="0">
+    </points>
+    <points label="left_waist" occluded="0" source="manual" points="867.60,2017.30" z_order="0">
+    </points>
+    <points label="left_bottom" occluded="0" source="manual" points="800.35,2486.46" z_order="0">
+    </points>
+    <points label="middle_bottom" occluded="0" source="manual" points="1165.76,2539.57" z_order="0">
+    </points>
+    <points label="right_bottom" occluded="0" source="manual" points="1633.25,2539.57" z_order="0">
+    </points>
+    <points label="right_waist" occluded="0" source="manual" points="1580.05,2207.42" z_order="0">
+    </points>
+    <points label="right_chest" occluded="0" source="manual" points="1683.46,1636.14" z_order="0">
+    </points>
+    <points label="right_sleeve" occluded="0" source="manual" points="2017.98,1701.56" z_order="0">
+    </points>
+    <points label="right_shoulder" occluded="0" source="manual" points="1759.29,1222.22" z_order="0">
+    </points>
+  </image>
+</annotations>

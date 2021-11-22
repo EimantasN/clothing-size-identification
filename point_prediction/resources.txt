@@ -1,0 +1,14 @@
+material detection (segmentation) in image
+https://people.compute.dtu.dk/jerf/papers/matseg.pdf
+
+keypoint detection (dog joits)
+https://keras.io/examples/vision/keypoint_detection/
+
+human body parts segmentation:
+https://github.com/tensorflow/tfjs-models/tree/master/body-pix
+
+annotation tools:
+https://www.v7labs.com/blog/best-image-annotation-tools
+
+cloths keypoint prediction
+https://www.aaai.org/AAAI21Papers/AAAI-2258.QianS.pdf
